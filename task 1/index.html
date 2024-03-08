@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Container for content with top margin -->
+    <div class="container mt-3 ms-3"> 
+        <!-- Heading -->
+        <h6>Add partner profile</h6>
+        <h6>Partners are organizations with whom you want to share project information.</h6>
+        <!-- Form -->
+        <form>
+            <!-- Row for form elements -->
+            <div class="row">
+                <!-- Partner name input field -->
+                <div class="col-12 col-md-10 mb-0">
+                    <label for="exampleFormControlInput1" class="form-label">Partner name<span class="text-danger">*</span></label>
+                    <input type="text" class="form-control bg-light" id="exampleFormControlInput1" placeholder="partner company name">
+                </div>
+                <!-- Description textarea -->
+                <div class="col-12 col-md-10 mb-0">
+                    <label for="exampleFormControlTextarea1" class="form-label">Description<span style="color: red;">*</span></label>
+                    <textarea class="form-control bg-light" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <!-- Character limit message -->
+                    <p class="text-muted mb-0 small">Provide max 250 characters</p>
+                </div>
+                <!-- Partner primary contact input field -->
+                <div class="col-12 col-md-10 mb-0">
+                    <label for="exampleFormControlInput1" class="form-label">Partner primary contact<span class="text-danger">*</span></label>
+                    <input type="text" class="form-control bg-light" id="exampleFormControlInput1" placeholder="partner contact">
+                </div>
+                <!-- Email address input field -->
+                <div class="col-12 col-md-10 mb-0">
+                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  <!-- Email sharing message -->
+                  <p class="text-muted mb-0 small">we'll never share your email with anyone else</p>
+                </div>
+                <!-- Phone number input field -->
+                <div class="col-12 col-md-10 mb-0">
+                    <label for="exampleFormControlInput1" class="form-label">Phone number<span class="text-danger">*</span></label>
+                    <input type="text" class="form-control bg-light" id="exampleFormControlInput1" placeholder="91-80-9878888888">
+                </div>
+            </div>    
+        </form>
+
+        <!-- Button group with top margin -->
+        <div class="button mt-3">
+            <!-- Buttons -->
+            <button type="button" class="btn btn-primary">Apply</button>
+            <button type="button" class="btn btn-primary">Save</button>
+            <button type="button" class="btn btn-primary">Cancel</button>
+            <button type="button" class="btn btn-primary">Reset</button>
+        </div>
+    </div>
+</body>
+</html>
